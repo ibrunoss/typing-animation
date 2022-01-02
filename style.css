@@ -1,0 +1,62 @@
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto Mono", monospace;
+
+  background: #ffffff;
+}
+
+h1 {
+  position: relative;
+
+  width: max-content;
+
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1::before,
+h1::after {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1::before {
+  background: #ffffff;
+
+  animation: moveToLeft 6s steps(26) 1s forwards;
+}
+
+h1::after {
+  background: #000000;
+
+  width: 0.125em;
+
+  animation: moveToLeft 6s steps(26) 1s forwards, blink 0.5s steps(26) infinite;
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes moveToLeft {
+  to {
+    left: 100%;
+  }
+}
