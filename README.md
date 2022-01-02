@@ -1,36 +1,16 @@
-# Title
+# Typing Animation
 
-<img src="./main.png" alt="Image" />
+<img src="./demo.gif" />
 
-Short description
+The goal of this project is to develop a simple typing effect with HTML and CSS
 
 ## 🛠️ Technologies
 
 <ul>
-  <li><a href="#">Technology</a></li>
+  <li><a href="https://git-scm.com/">Git</a></li>
+  <li><a href="https://www.w3schools.com/css/">CSS3</a></li>
+  <li><a href="https://www.w3schools.com/html/">HTML5</a></li>
 </ul>
-
-## ⚙️ Requirements
-
-<ul>
-  <li><a href="#">Requirement</a></li>
-</ul>
-
-## 💾 Installation
-
-```
-$ command
-
-instruction
-```
-
-## 🚀 Launch
-
-```
-$ command
-
-instruction
-```
 
 ## 📑 License
 
